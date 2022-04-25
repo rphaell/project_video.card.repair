@@ -4,23 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VGATEC</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="background_styles.css" />
+    <script src="script.js" defer></script>
+    <title>VGATEC</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li class="logo"><a href="#">VGATEC</a></li>
-        <li class="item"><a href="#">HOME</a></li>
-        <li class="item button"><a href="#">QUEM SOMOS</a></li>
-        <li class="item button secondary"><a href="#">CONTATO</a></li>
-        <li class="toggle">
-          <a href="#"><span class="bars"></span></a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <a href="#" style="position: fixed; bottom: 0">Youtube</a>
-    </main>
+    <header>
+      <nav class="navbar">
+        <div class="logo"><img src="/img/LOGO.jpg" alt="" /></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-sec">
+      <div class="container">
+        <h1>Reparos em placas de vídeo</h1>
+        <h2>Dê uma segunda chance a sua placa!</h2>
+        <p>
+          Trabalhamos exclusivamente com o reparo de placas de vídeo, com o
+          fornecimento de <span>garantia</span> e <span>pontualidade</span> nos
+          serviços.
+        </p>
+        <div class="buttons">
+          <a id="btn1" href="#">Conheça o nosso trabalho</a>
+          <a id="btn2" href="#">Entre em contato</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
