@@ -107,33 +107,37 @@ body {
 /* HERO SECTION */
 
 .hero-sec {
+  padding: 0 8px;
   margin: 0 auto;
   width: 100vw;
   color: white;
   display: flex;
-  height: 40vh;
+  height: 65vh;
   /* background: url(/img/background-img.jpg); */
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   background: rgb(7, 7, 7);
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   justify-content: space-around;
 }
 
 .hero-sec h1 {
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .hero-sec h2 {
   font-size: 1.3em;
   color: rgb(4, 243, 4);
+  text-transform: uppercase;
 }
 
 .hero-sec p {
   text-align: center;
   font-size: 1rem;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .buttons {
@@ -146,7 +150,7 @@ body {
 }
 
 .buttons a {
-  transition: 1.2s;
+  width: 95%;
   border-radius: 3px;
   text-decoration: none;
   color: #fff;
@@ -154,6 +158,8 @@ body {
   padding: 15px;
   font-size: 1.2em;
   border: 1px solid #eee;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #btn1:hover {
@@ -169,4 +175,28 @@ body {
 .hero-sec p span {
   font-weight: bold;
   font-size: 1.2em;
+}
+
+/* QUEM SOMOS SECTION */
+
+.about {
+  padding: 0 8px;
+  margin: 0 auto;
+  width: 100vw;
+  color: white;
+  display: flex;
+  height: 10vh;
+  /* background: url(/img/background-img.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background: rgb(14, 194, 226);
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.about p {
+  font-size: 1.5em;
+  /* color: rgb(4, 243, 4); */
+  text-transform: uppercase;
 }
