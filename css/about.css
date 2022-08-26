@@ -14,18 +14,12 @@
     }
 
     .about_aboutus-right > p {
-        font-size: 1.2rem;
-        margin: 1.6rem 0;        
+        margin: 1.6rem 0 2.5rem; 
+        font-size: 1.1rem; 
     }
 
-    .about_aboutus-left{
-        width: 80%;
-        margin: auto;
-    }
-
-    .about_aboutus-left img{
-        height: 25rem;
-    }
+    
+    
 
     
 
@@ -75,9 +69,27 @@
         margin-bottom: 1rem;
     }
 
-    
+        .aboutus__socials {
+            display: flex;
+            gap: 1rem;
+            font-size: 2rem;
+            justify-content:flex-end;            
+        }
 
+        .aboutus__socials a {
+            /* font-size: 3rem; */
+            color: black;
+            /* margin-right: 20px; */
+        }
 
+        .testing {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }  
+
+        
+        
 
     /* ==============TEAM PAGE============== */
 
@@ -172,6 +184,7 @@
         .about_aboutus-left {
             width: 80%;
             margin: auto;
+            display: flex;
         }
 
         .team__container {
@@ -182,22 +195,46 @@
         .team__member {
             padding:1rem;
         }
+
+        .about_aboutus-left img {
+            display: none;
+        }
+
+        .testing h1 {
+            font-size: 1.7rem;
+            
+        }  
+        
+    
         
     }
 
     /* ==============TEAM PAGE MEDIA QUERY 600px PHONES============== */
     @media screen and (max-width:600px) {
-        .aboutus__cards {
-            grid-template-columns: 1fr 1fr;
+        .about__aboutus {
+            /* margin-top:2rem; */
         }
 
-        .team__container {
-            grid-template-columns: 1fr 1fr;
+        .about-aboutus__container {            
+                display: block;
+                /* grid-template-columns: 1fr; */
+                /* gap:4rem;             */
         }
 
-        .team__member p {
-           margin-bottom: 1.5rem; 
+        .about_aboutus-left {
+            width: 80%; 
+            margin: auto;
+            display: flex;
+        }            
+
+        .about_aboutus-left img {
+            display: none;
         }
+
+        .testing h1 {
+            font-size: 1.7rem;
+            
+        }  
     }
 
 
