@@ -1,0 +1,36 @@
+.courses {}
+
+.courses h2 {
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.courses h2 a {
+    font-size: 2rem;
+    align-items: center;
+    color: white;
+    background: red;
+    border-radius: 10px;
+    padding: 2.75px;
+}
+
+.g-ytsubscribe {
+    height: 500px;
+}
+
+@media screen and (max-width: 825px) {
+    .courses h2 a {
+        padding: 5px;
+        margin-top: 9px;
+        width: 7rem;
+        margin-left:auto;
+        margin-right:auto;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+    
+}
+
+
+
