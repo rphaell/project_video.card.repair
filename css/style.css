@@ -662,7 +662,15 @@ footer ul li a:hover {
     /* ==============FAQS(MEDIA QUERY = 1024PX)============== */
     .faqs__container {
         grid-template-columns: 1fr;
+        
     }
+
+    .faqs h2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
 
     .faq {
         padding: 1.5rem;
