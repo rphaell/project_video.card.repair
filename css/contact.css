@@ -93,6 +93,19 @@ input, textarea {
     cursor: pointer;
 }
 
+.contact__details img {
+    width: 30px;
+}
+
+.contact__details {
+    font-size: 30px;
+    margin: 0;
+}
+
+.contact__details h5 {
+    font-size: 20px;
+}
+
 /* ================ MEDIA QUERIES FOR TABLES ( 1024px================= */
 
 @media screen and (max-width: 1024px) {

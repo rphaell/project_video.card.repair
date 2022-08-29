@@ -169,7 +169,7 @@
         padding: 1rem;
     }
 
-    /* ==============TEAM PAGE MEDIA QUERY 1024px TABLETS============== */
+    /* ==============ABOUT US QUERY 1024px TABLETS============== */
 
     @media screen and (max-width: 1024px) {
         .about__aboutus {
@@ -211,8 +211,16 @@
 
     /* ==============TEAM PAGE MEDIA QUERY 600px PHONES============== */
     @media screen and (max-width:600px) {
-        .about__aboutus {
-            /* margin-top:2rem; */
+           
+    
+        
+    
+        .aboutus__card p { 
+            color: white;
+            font-size: 12px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin: 0;
         }
 
         .about-aboutus__container {            
