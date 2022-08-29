@@ -35,11 +35,13 @@
 }
 
 .contact__details li {
+    
     display:flex;
     gap:1rem;
     align-items: center;
     margin-bottom: 1rem;
 }
+
 
 .contact__socials {
     display: flex;
@@ -52,7 +54,7 @@
     background-color: var(--color-bg1);
     padding: 0.5rem;
     border-radius:50%;
-    font-size: 0.9rem;
+    font-size: 1.7rem;
     transition: var(--transition);  
 }
 
@@ -81,11 +83,15 @@
 }
 
 input, textarea {
+    font-family: 'Share Tech';
     width: 100%;
     padding: 0.5rem;
     background:var(--color-bg3);
-    color: black;
+    color: white;
+    font-size: 1rem;
 }
+
+
 
 ::placeholder {
     font-size: 15px; 

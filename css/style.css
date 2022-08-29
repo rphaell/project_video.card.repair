@@ -6,7 +6,12 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 
 /* COLOR VARIABLES */
 :root {
@@ -34,8 +39,10 @@
     --transition: all 400ms ease;
 }
 
+
+
 body {
-    font-family: 'Share Tech', sans-serif;
+    font-family:'Share Tech';
     line-height: 1.7;
     color: var(--color-white);
     background: var(--color-bg)
