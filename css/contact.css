@@ -30,7 +30,7 @@
 }
 
 .contact__aside p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-bottom:2rem;
 }
 
@@ -83,9 +83,16 @@
 input, textarea {
     width: 100%;
     padding: 0.5rem;
-    background:var(--color-black);
-    color: var(--color-white);
+    background:var(--color-bg3);
+    color: black;
 }
+
+::placeholder {
+    font-size: 15px; 
+    color: white;
+    opacity: 1; 
+  }
+
 
 .contact__form .btn {
     width: max-content;
@@ -121,6 +128,12 @@ input, textarea {
     }
 
     .contact__aside {
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+
+    .contact__aside p {
         width: auto;
         padding: 1.5rem;
         bottom: 0;
