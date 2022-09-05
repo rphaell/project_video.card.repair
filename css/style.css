@@ -187,7 +187,7 @@ nav button {
     background: red;
     border-radius: 1rem;
     font-size: 2.8rem;
-    padding: 3px;
+    padding: 4px;
 }
 
 
@@ -203,7 +203,7 @@ header {
     top: 5rem;
     overflow: hidden;
     height: 70vh;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     background-image: url("/images/msiwallpaper.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -215,7 +215,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 5rem;
+    gap: 0;
     height: 100%;    
 }
 
@@ -608,39 +608,13 @@ footer ul li a:hover {
     }
 
     .nav__menu li a:hover {
-        background: var(--color-bg1);
+        background: var(--color-button);
         color: var(--color-white)
     }
 
     /* ==============HEADER(MEDIA QUERY = 1024PX)============== */
 
-
-
-    header {
-        height: 70vh;
-        padding-bottom: 4rem;
-        /* padding-top: 4rem; */
-    }
-
-    .header__container {
-        gap: 0;
-        padding-bottom: 3rem;
-    }
-
-    /* ==============CATEGORY(MEDIA QUERY = 1024PX)============== */
-
-    /* .categories {
-        height: auto;
-    }
-
-    .categories__container {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-
-    .categories__left {
-        margin-right: 0;
-    } */
+      
 
     /* ==============COURSES(MEDIA QUERY = 1024PX)============== */
 
@@ -663,7 +637,7 @@ footer ul li a:hover {
         background: red;
         border-radius: 1rem;
         font-size: 1.5rem;
-        padding: 3px;
+        padding: 5px;
     }
 
     /* ==============FAQS(MEDIA QUERY = 1024PX)============== */
@@ -711,19 +685,29 @@ footer ul li a:hover {
     }
 
     /* ==============HEADER(PHONES)============== */
-    header {
-        height: 100vh;
-        /* background-size: 100% 100% */
-    }
+    
 
     .header__container {
         grid-template-columns: 1fr;
         text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 0;
+        /* gap: 2rem; */
     }
 
     .header__left p {        
         margin-bottom:1.3rem;
+        font-weight: bold;
+        display: none;
+        font-size: 1rem;
+    }
+
+    .header__left .btn {
+        background: var(--color-button);
+        color: white;
+        margin-top: 2rem;
     }
 
     /* ==============CATEGORIES(PHONES)============== */
